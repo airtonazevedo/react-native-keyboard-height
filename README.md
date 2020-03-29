@@ -22,7 +22,7 @@ yarn add react-native-keyboard-height
 Import the package with  `import { useKeyboard } from "react-native-keyboard-height"`
 Use the hook witch `const [keyboardHeight] = useKeyboard();`
 
-```jsx
+```js
 import  React, { useEffect } from  'react';
 import { View, Dimensions, Text } from  'react-native'
 import { useKeyboard } from  'react-native-keyboard-height'
@@ -32,7 +32,7 @@ const  screenHeight = Dimensions.get('window').height;
 
 export  default  function  exampleKeyboardHeight() {
 
-	const [keyboardHeigth] = useKeyboard();
+    const [keyboardHeigth] = useKeyboard();
 	
 	useEffect(() => {
 		console.log(keyboardHeigth);
