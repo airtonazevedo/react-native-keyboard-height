@@ -23,32 +23,40 @@ Import the package with  `import { useKeyboard } from "react-native-keyboard-hei
 Use the hook witch `const [keyboardHeight] = useKeyboard();`
 
 ```js
-import  React, { useEffect } from  'react';
-import { View, Dimensions, Text } from  'react-native'
-import { useKeyboard } from  'react-native-keyboard-height'
+import React, { useEffect } from 'react';
+import { View, Dimensions, Text, TextInput } from 'react-native'
+import { useKeyboard } from 'react-native-keyboard-height'
 
-const  screenWidth = Dimensions.get('window').width;
-const  screenHeight = Dimensions.get('window').height;
+const screenWidth = Dimensions.get('window').width;
+const screenHeight = Dimensions.get('window').height;
 
-export  default  function  exampleKeyboardHeight() {
+export default function exampleKeyboardHeight() {
 
     const [keyboardHeigth] = useKeyboard();
-	
-	useEffect(() => {
-		console.log(keyboardHeigth);
-	}, [keyboardHeigth])
-	
-	return (
-		<View  style={{width:  screenWidth,
-			height:  screenHeight-keyboardHeigth,
-			backgroundColor:  'red',
-			justifyContent:  'center',
-			alignItems:  'center'
-		}}>
-			<Text>{"The keyboard height is: " + keyboardHeigth}</Text>
-		</View  >
-	);
-}
+
+    useEffect(() => {
+        console.log(keyboardHeigth);
+    }, [keyboardHeigth])
+
+    return (
+        <View style={{
+            width: screenWidth,
+            height: screenHeight - keyboardHeigth,
+            backgroundColor: '#bbb',
+            justifyContent: 'center',
+            alignItems: 'center'
+        }}>
+            <Text>{"The keyboard height is: " + keyboardHeigth}</Text>
+            <TextInput
+                style={{
+                    height: 40,
+                    width: '90%',
+                    backgroundColor: '#fff'
+                }}
+            />
+        </View  >
+    );
+};
 ```
 
 
