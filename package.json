@@ -5,6 +5,6 @@
   "main": "index.js",
   "repository": "https://github.com/airtonazevedo/react-native-keyboard-height.git",
   "author": "airtonazevedo <airton.azevedo@icomp.ufam.edu.br>",
-  "license": "MIT",
+  "license": "ISC",
   "keywords": ["react", "native", "keyboard", "teclado", "altura", "height", "get"]
 }
