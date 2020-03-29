@@ -1,6 +1,10 @@
 {
-  "name": "react-native-keyboard-heigth",
+  "name": "react-native-keyboard-height",
   "version": "1.0.0",
+  "description": "React Hook for get Keyboard height in React-Native",
   "main": "index.js",
-  "license": "MIT"
+  "repository": "https://github.com/airtonazevedo/react-native-keyboard-height.git",
+  "author": "airtonazevedo <airton.azevedo@icomp.ufam.edu.br>",
+  "license": "MIT",
+  "keywords": ["react", "native", "keyboard", "teclado", "altura", "height", "get"]
 }
