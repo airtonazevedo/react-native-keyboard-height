@@ -4,7 +4,11 @@
   "description": "React Hook for get Keyboard height in React-Native",
   "main": "index.js",
   "repository": "https://github.com/airtonazevedo/react-native-keyboard-height.git",
-  "author": "airtonazevedo <airton.azevedo@icomp.ufam.edu.br>",
+  "author": "airtonazevedo <airton.mtaz@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airtonazevedo/react-native-keyboard-height/issues"
+  },
+  "homepage": "https://github.com/airtonazevedo/react-native-keyboard-height#readme",
   "keywords": ["react", "native", "keyboard", "teclado", "altura", "height", "get"]
 }
