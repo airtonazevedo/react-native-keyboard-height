@@ -19,7 +19,7 @@ yarn add react-native-keyboard-height
 
 ## Usage
 
-Import the package with  `import { useKeyboard } from "react-native-keyboard-height"`
+Import the package with  `import { useKeyboard } from "react-native-keyboard-height"`<br />
 Use the hook witch `const [keyboardHeight] = useKeyboard();`
 
 ```js
